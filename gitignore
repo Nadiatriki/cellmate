@@ -5,7 +5,6 @@ chroma_db/
 legal_docs/
 
 # ── Optional local assets ────────────────────────────────────
-logo.png
 fonts/
 
 # ── Python ───────────────────────────────────────────────────
