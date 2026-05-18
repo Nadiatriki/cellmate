@@ -1,0 +1,12 @@
+# ── Core ────────────────────────────────────────────────────
+streamlit>=1.35.0
+requests>=2.31.0
+
+# ── RAG (Legal feature) ──────────────────────────────────────
+pymupdf>=1.24.0          # PDF parsing — no Poppler or Tesseract needed
+chromadb>=0.5.0          # Local vector database, persists to disk
+
+# ── Voice (Keep Your Head Right feature) ────────────────────
+faster-whisper>=1.0.0    # Offline speech-to-text (STT)
+pyttsx3>=2.90            # Offline text-to-speech (TTS)
+audio-recorder-streamlit>=0.0.8  # Mic recorder widget for Streamlit
