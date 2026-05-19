@@ -57,11 +57,11 @@ CellMate/
 ├── requirements.txt         # Python dependencies
 ├── README.md                # This file
 ├── .gitignore               # Excludes generated files from git
-├── legal_docs/              # Drop your legal PDFs here (not committed to git)
-│   ├── your_document.pdf
+├── legal_docs/              # legal PDFs here 
+│   ├── doc1.pdf
 │   └── ...
 ├── chroma_db/               # Auto-created by indexer — not committed to git
-├── logo.png                 # Optional — your logo (not committed to git)
+├── logo.png                 # CellMate logo
 └── fonts/                   # Optional — IBM Plex fonts (not committed to git)
     ├── IBMPlexMono-Regular.ttf
     └── IBMPlexSans-Regular.ttf
@@ -117,7 +117,7 @@ ollama serve
 
 ### Step 4 — Add your legal documents
 
-Drop any legal PDF files into the `legal_docs/` folder:
+Add any legal PDF files into the `legal_docs/` folder:
 
 ```
 legal_docs/
@@ -250,9 +250,7 @@ To add a new language, add entries to `LANGUAGES` and `UI` in `cellmate.py`.
 
 For legal and privacy reasons, the following are excluded from git:
 
-- `legal_docs/` — add your own PDFs (see Step 4 above)
 - `chroma_db/` — generated locally by the indexer
-- `logo.png` — add your own (optional)
 - `fonts/` — download IBM Plex from [Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
 ---
